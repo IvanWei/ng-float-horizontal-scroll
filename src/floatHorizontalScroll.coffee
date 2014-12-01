@@ -12,7 +12,7 @@ app.directive "floatHorizontalScroll", () ->
       windowDimensions = $(window)
       browser = $(document)
 
-      newFloatScroll = "<div style='top: 0; overflow: scroll; position:absolute;'><div style='height: 1px;'>1111111</div></div>"
+      newFloatScroll = "<div style='top: 0; overflow: scroll; position:absolute;'><div style='height: 1px;'></div></div>"
       floatHorizontalScroll = $(newFloatScroll)
 
       element.append floatHorizontalScroll
